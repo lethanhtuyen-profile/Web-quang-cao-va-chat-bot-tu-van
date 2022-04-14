@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    border:1px solid #000;
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+
+}
+.header{
+    border:1px solid #e066ff;
+    height: 180px;
+    width: 100%;
+}
+.menu{
+    border:1px solid #5cd65c;
+    height: 50px;
+    width: 100%;
+    background:#324ca8;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0 auto;
+    width: 60%;
+    list-style: none;
+    line-height: 27px
+}
+ul.list_menu li {
+    float: left;
+    /* border: 1px solid #000; */
+    margin: 7px;
+    padding: 5px;
+}
+ul.list_menu li:hover {
+    background: cadetblue;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+}
+#main{
+    border:1px solid #3333ff;
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    border:1px solid #ff3333;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0 ;
+    width: 100%;
+    list-style: none;
+    line-height: 27px
+}
+ul.list_sidebar li {
+    /* border: 1px solid #000; */
+    margin: 7px;
+    padding: 5px;
+}
+ul.list_sidebar li:hover {
+    background: lightblue;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+.maincontent{
+    border:1px solid #ffd24d;
+    height: auto;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li {
+    width: 18%;
+    border: 1px dashed #000;
+    margin: 5px;
+    float: left;
+    background: #324ca8;
+    height: 260px;
+}
+ul.product_list a {
+    text-decoration: none;
+}
+ul.product_list li img {
+    width: 100%;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+    border:1px solid #000;
+    height: 150px;
+    width: 100%;
+    background: #324ca8;
+}
+p.footer_copyright {
+    text-align: center;
+    color: #000;
+}
+.clear{
+    clear:both;
+}
+.logo{
+    float: left;
+}
+.company{
+    padding-top: 30px;
+    font-size: xx-large;
+    color: red;
+    font-family :Arial, Helvetica, sans-serifs;
+    font-weight: bold;
+}
+.sec2{
+    background-color: white;
+    height: 136.3px;
+}
+.minitext{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.s3{
+    background-color: white;
+    height: 718px;;
+}
+.texts3{
+    text-align: left;
+    font-size: x-large;
+    color: black;
+    padding-left: 60px;
+}
